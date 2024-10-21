@@ -12,7 +12,20 @@
           "package_name": "com.chandra.clubnorms"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1063717283410-94hk4bn7aem9fbne722u5i987hcrfsta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chandra.clubnorms",
+            "certificate_hash": "0640272bfdb1dc60f85bbcee0d57d8a71e442c59"
+          }
+        },
+        {
+          "client_id": "1063717283410-80svo0js7du39fq6882t4vni9ifjlhc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCELarKBsTMPmkHM5jHuSjEA-5W-zMVKgw"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063717283410-80svo0js7du39fq6882t4vni9ifjlhc7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1063717283410-sl5uc1dueh4detr4v1cjbcoqirdmq7n4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.chandra.clubnorms"
+              }
+            }
+          ]
         }
       }
     }

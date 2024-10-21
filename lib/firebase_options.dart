@@ -70,6 +70,9 @@ class DefaultFirebaseOptions {
     messagingSenderId: '1063717283410',
     projectId: 'clubnorms-9ff76',
     storageBucket: 'clubnorms-9ff76.appspot.com',
+    androidClientId: '1063717283410-94hk4bn7aem9fbne722u5i987hcrfsta.apps.googleusercontent.com',
+    iosClientId: '1063717283410-sl5uc1dueh4detr4v1cjbcoqirdmq7n4.apps.googleusercontent.com',
     iosBundleId: 'com.chandra.clubnorms',
   );
+
 }
