@@ -80,6 +80,7 @@ class _StartscreenState extends State<Startscreen> {
                                     fit: BoxFit.cover),
                               )),
                           onTap: () {
+                            Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=>const Signinusingemail()));
 
                           }),
                       const SizedBox(height: 10),
@@ -99,7 +100,7 @@ class _StartscreenState extends State<Startscreen> {
                             try{
                               final user = UserController.signInWithGoogle();
                               if(user!=null && mounted){
-                                Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=>Bottomnavigationbar()));
+                                Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=>const Bottomnavigationbar()));
                               }
                             }
                             on FirebaseAuthException catch(e){
